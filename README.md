@@ -14,10 +14,10 @@ This is a simple web app that allows users to view the current weather for a giv
 
 ### Built With
 
-*OpenWeatherMap API - used to retrieve weather data
-*Express - used to set up the server and handle routes
-*Body-Parser - used to parse request bodies
-*Cors - used to handle cross-origin resource sharing
+* OpenWeatherMap API - used to retrieve weather data
+* Express - used to set up the server and handle routes
+* Body-Parser - used to parse request bodies
+* Cors - used to handle cross-origin resource sharing
 
 ### Author
 
