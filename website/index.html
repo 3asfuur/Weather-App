@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Journal</title>
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Normalization CSS Link  -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Main CSS File Link -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="weather-app">
+    <h1 id="app-title" class="app-header">My Weather App</h1>
+    <div id="zip-input-container" class="input-container">
+      <input type="text" id="zip-input" placeholder="Enter US ZIP code" />
+      <small id="error-message"></small>
+    </div>
+    <div id="feelings-input-container" class="input-container">
+      <textarea id="feelings-input" rows="9" cols="20" placeholder="How do you feel today?"></textarea>
+      <button id="generate-button" type="submit">Generate</button>
+    </div>
+    <div id="entry-container">
+      <div id="entry-title" class="title">Most Recent Entry</div>
+      <div id="entry-box">
+        <div id="temperature"></div>
+        <div id="date-display"></div>
+        <div id="user-feelings"></div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
